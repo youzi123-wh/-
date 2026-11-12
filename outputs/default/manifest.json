@@ -1,0 +1,83 @@
+{
+  "created_utc": "2026-11-05T01:01:29.103852+00:00",
+  "config": {
+    "data_path": "data/Patio_Lawn_and_Garden_5.json",
+    "output_dir": "outputs/default",
+    "seed": 42,
+    "train_ratio": 0.8,
+    "validation_train_ratio": 0.8,
+    "top_k": 10,
+    "models": {
+      "GlobalMean": [
+        {}
+      ],
+      "Popularity": [
+        {}
+      ],
+      "Bias": [
+        {
+          "reg": 5.0
+        },
+        {
+          "reg": 15.0
+        },
+        {
+          "reg": 30.0
+        }
+      ],
+      "ItemKNN": [
+        {
+          "neighbors": 10,
+          "shrinkage": 5.0,
+          "reg": 15.0
+        },
+        {
+          "neighbors": 30,
+          "shrinkage": 5.0,
+          "reg": 15.0
+        },
+        {
+          "neighbors": 30,
+          "shrinkage": 20.0,
+          "reg": 15.0
+        },
+        {
+          "neighbors": 60,
+          "shrinkage": 20.0,
+          "reg": 15.0
+        }
+      ],
+      "MFALS": [
+        {
+          "factors": 8,
+          "factor_reg": 2.0,
+          "epochs": 20,
+          "reg": 15.0
+        },
+        {
+          "factors": 16,
+          "factor_reg": 2.0,
+          "epochs": 20,
+          "reg": 15.0
+        },
+        {
+          "factors": 8,
+          "factor_reg": 10.0,
+          "epochs": 20,
+          "reg": 15.0
+        },
+        {
+          "factors": 16,
+          "factor_reg": 10.0,
+          "epochs": 20,
+          "reg": 15.0
+        }
+      ]
+    }
+  },
+  "data_sha256": "119612a8dc9dd6967ef74ea23d447d83e8adbfbe144c9f89b2ba39e72fda077f",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "elapsed_seconds": 14.521256399995764
+}

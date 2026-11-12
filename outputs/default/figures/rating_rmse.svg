@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="416" viewBox="0 0 1000 416">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Microsoft YaHei, Arial, sans-serif" fill="#172d25">
+<text x="32" y="42" font-size="27" font-weight="bold">评分预测 RMSE</text>
+<text x="32" y="73" font-size="16" fill="#52675e">同一测试集，越低越好；评分预测裁剪到 1–5 星</text>
+<text x="32" y="133" font-size="20">GlobalMean</text>
+<rect x="220" y="110" width="584.85" height="34" fill="#22634c"/>
+<text x="816.85" y="133" font-size="19">1.0605</text>
+<text x="32" y="197" font-size="20">Bias</text>
+<rect x="220" y="174" width="533.24" height="34" fill="#22634c"/>
+<text x="765.24" y="197" font-size="19">0.9669</text>
+<text x="32" y="261" font-size="20">ItemKNN</text>
+<rect x="220" y="238" width="610.00" height="34" fill="#22634c"/>
+<text x="842.00" y="261" font-size="19">1.1061</text>
+<text x="32" y="325" font-size="20">MFALS</text>
+<rect x="220" y="302" width="539.60" height="34" fill="#22634c"/>
+<text x="771.60" y="325" font-size="19">0.9785</text>
+</g></svg>

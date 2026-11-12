@@ -1,0 +1,24 @@
+{
+  "rating_model": "Bias",
+  "ranking_model": "Popularity",
+  "selection_basis": "inner-validation RMSE for rating, NDCG@10 for ranking; no test selection",
+  "model_settings": {
+    "GlobalMean": {},
+    "Popularity": {},
+    "Bias": {
+      "reg": 5.0
+    },
+    "ItemKNN": {
+      "neighbors": 10,
+      "shrinkage": 5.0,
+      "reg": 15.0
+    },
+    "MFALS": {
+      "factors": 8,
+      "factor_reg": 10.0,
+      "epochs": 20,
+      "reg": 15.0,
+      "seed": 42
+    }
+  }
+}

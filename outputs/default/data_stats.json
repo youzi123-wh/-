@@ -1,0 +1,31 @@
+{
+  "interactions": 13272,
+  "users": 1686,
+  "items": 962,
+  "density": 0.008182833805609606,
+  "min_user_ratings": 5,
+  "max_user_ratings": 66,
+  "min_item_ratings": 5,
+  "max_item_ratings": 296,
+  "rating_distribution": {
+    "1": 519,
+    "2": 673,
+    "3": 1659,
+    "4": 3384,
+    "5": 7037
+  },
+  "mean_rating": 4.186482820976492,
+  "duplicates_removed": 0,
+  "start_date": "2000-04-05",
+  "end_date": "2014-07-22",
+  "split_counts": {
+    "train": 10054,
+    "test": 3218,
+    "fit": 7552,
+    "validation": 2502
+  },
+  "actual_train_ratio": 0.7575346594333936,
+  "cold_test_items": 2,
+  "cold_test_rows": 10,
+  "catalog_known_at_split": true
+}

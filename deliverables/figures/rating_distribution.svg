@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Microsoft YaHei, Arial, sans-serif" fill="#172d25">
+<text x="32" y="42" font-size="27" font-weight="bold">评分分布</text>
+<text x="32" y="73" font-size="16" fill="#52675e">横轴为记录数；标签为星级</text>
+<text x="32" y="133" font-size="20">1</text>
+<rect x="220" y="110" width="44.99" height="34" fill="#22634c"/>
+<text x="276.99" y="133" font-size="19">519.0000</text>
+<text x="32" y="197" font-size="20">2</text>
+<rect x="220" y="174" width="58.34" height="34" fill="#22634c"/>
+<text x="290.34" y="197" font-size="19">673.0000</text>
+<text x="32" y="261" font-size="20">3</text>
+<rect x="220" y="238" width="143.81" height="34" fill="#22634c"/>
+<text x="375.81" y="261" font-size="19">1659.0000</text>
+<text x="32" y="325" font-size="20">4</text>
+<rect x="220" y="302" width="293.34" height="34" fill="#22634c"/>
+<text x="525.34" y="325" font-size="19">3384.0000</text>
+<text x="32" y="389" font-size="20">5</text>
+<rect x="220" y="366" width="610.00" height="34" fill="#22634c"/>
+<text x="842.00" y="389" font-size="19">7037.0000</text>
+</g></svg>
